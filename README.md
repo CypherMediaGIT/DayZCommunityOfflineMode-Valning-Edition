@@ -56,7 +56,7 @@ You might delete your whole ```Missions``` folder and validate your game files v
 * This Version of DayZCommunityOfflineMode Valning Edition has had the Teleport locations updated to match all the loction found on the Valning Map
  
 # Loot and infected spawn
-By default the "Hive" that is repsonsible for spawning loot and infected is **enabled**. If you want to prevent loot and infected from spawning you need to follow this guide: [Toggle loot and infected spawn](https://github.com/CypherMediaGIT/CypherMediaGIT-DayZCommunityOfflineMode-Valning-Edition/wiki/Toggle-Loot-and-Infected-Spawn)  
+By default the "Hive" that is repsonsible for spawning loot and infected is **enabled**. If you want to prevent loot and infected from spawning you need to follow this guide: [Toggle loot and infected spawn](https://github.com/CypherMediaGIT/DayZCommunityOfflineMode-Valning-Edition/wiki/Toggle-Loot-and-Infected-Spawn)  
 > Disabling the hive increases the game performace.
 
 # Logfiles:
