@@ -24,8 +24,9 @@ Make sure you are on the latest `STABLE` or `EXPERIMENTAL` version of the game.
 Unpack and Place the ```DayZCommunityOfflineMode.valning``` folder inside your ```Missions``` folder in the DayZ game directory (```For example: C:\Program Files (x86)\Steam\steamapps\common\DayZ```).  
 Even though this is not directly bannable by Battleye, just to make sure: Rename your Battleye folder to Battleye.disabled, and rename the DayZ_BE.exe to DayZ_BE.exe.disabled.
 
-Now you now start the script ```DayZ/Missions/DayZCommunityOfflineMode.valning/DayZCOfflineMValning.bat``` to start the game. You will be loaded directly into the offline mode.  
+Now you now start the script ```DayZ/Missions/DayZCommunityOfflineMode.valning/DayZCOfflineMValning.bat``` to start the game. You will be loaded directly into the offline mode.
 Or add the following start parameter to your game: ```-mission=.\Missions\DayZCommunityOfflineMode.valning```
+@CF;@BuilderItems;@BuilderStatics;@VanillaPlusPlusMap Mods have been added to the .bat file for ease, so you will need to move these MODS from the !Workshop folder like you did wit ValningMap MOD  
 
 To unstinstall this mod, simple delete all downloaded files, and rename your .disabled folders back to their original name.   
 You might delete your whole ```Missions``` folder and validate your game files via steam to get the original DayZ files back.
