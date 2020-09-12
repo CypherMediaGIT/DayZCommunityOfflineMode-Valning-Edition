@@ -71,7 +71,7 @@ class PositionMenu extends PopupMenu
 
 	override void OnShow()
 	{
-        vector player_pos = GetGame().GetPlayer().GetPosition();
+        vector player_pos = COM_GetPB().GetPosition();
 
         m_TxtCurrentX.SetText( player_pos[0].ToString() );
 		m_TxtCurrentY.SetText( player_pos[2].ToString() );
@@ -132,7 +132,7 @@ class PositionMenu extends PopupMenu
 		    }
 		    else
 		    {
-		        PlayerBase oPlayer = GetGame().GetPlayer();
+		        PlayerBase oPlayer = COM_GetPB();
 		        oPlayer.MessageStatus( "Invalid teleportation position!" );
 
 		        return true;
@@ -142,9 +142,9 @@ class PositionMenu extends PopupMenu
 			vPlayerPos[0] = pos_x;
 			vPlayerPos[2] = pos_y;
 
-			vPlayerPos = SnapToGround( vPlayerPos );
+			vPlayerPos = COM_SnapToGround( vPlayerPos );
 
-			GetGame().GetPlayer().SetPosition( vPlayerPos );
+			COM_GetPB().SetPosition( vPlayerPos );
 
 			return true;
 		}
